@@ -1,0 +1,38 @@
+[
+    {
+        "Origin": "bin",
+        "Destinations": [
+          "/ILIONX45/bin/"
+        ],
+        "Files": [
+            {"name":"REPSOL.PERU.BackOffice.dll","force" : "true"},
+            {"name":"Custom.RepsolPeru.BackOffice.dll","force" : "true"},
+            {"name":"Custom.RepsolPeru.Petroleum.dll","force" : "true"},
+            {"name":"Custom.RepsolPeru.Reporting.dll","force": "true"}
+        ]
+    },
+    {
+        "Origin":"Custom\\RepsolPeru\\BackOffice",
+        "Destinations": [
+            "/ILIONX45/custom/REPSOLPERU/BackOffice/"
+        ],
+        "Files":[
+            {"name":"RepsolPeru_GestionSOAT.aspx","force":"false"},
+            {"name":"RepsolPeru_ModuloSustentoPromocard.aspx","force":"false"}
+        ]
+    }
+    ,
+    {
+        "Origin":"Custom\\RepsolPeru\\Reporting",
+        "Destinations": [
+            "/ILIONX45/custom/REPSOLPERU/Reporting/"
+        ],
+        "Files":[
+            {"name":"RepsolPeruReporteTransaccionesAcumulado.aspx","force":"false"},
+            {"name":"RepsolPeruReporteTransaccionesAnuladasPromocard.aspx","force":"false"},
+            {"name":"RepsolPeruReporteTransaccionesPorDia.aspx","force":"false"},
+            {"name":"RepsolPeruReporteTransferGratuitas.aspx","force":"false"},
+            {"name":"RepsolPeruVentasPromocard.aspx","force":"false"}
+        ]
+    }
+]
